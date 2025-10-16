@@ -1,8 +1,6 @@
 from capitalize import capitalize
 
 
-if capitalize 'hexlet' != 'Hexlet':
-    raise Exception("Функция работает неверно!")
+assert capitalize('hexlet') == 'Hexlet'
 
-if capitalize("") != "":
-    raise Exception("Функция работает неверно!")
+assert capitalize("") == ""
